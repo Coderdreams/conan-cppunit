@@ -3,6 +3,7 @@ from conans import ConanFile, ConfigureEnvironment
 class CppUnitConan(ConanFile):
     name = "cppunit"
     version = "0.1"
+    url = "https://github.com/Coderdreams/conan-cppunit"
     # This conan package was tested with this commit
     releaseCommitId = "c6a021fcb47e3833a20363991719fdde10e64770"
     settings = "os", "compiler", "build_type", "arch"
